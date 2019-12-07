@@ -1,0 +1,32 @@
+#bag {
+    width: 500px;
+    height: 480px;
+    margin: 0 auto;
+    background: url('../assets/Images/punch-bag.png') center no-repeat;
+    background-size: 80%;
+}
+
+.brust {    
+    width: 150px !important;
+    height: 400px !important;
+    background: url('../assets/Images/bag-burst.png') center no-repeat !important;
+    background-size: 80% !important;
+}
+
+#bag-health {
+    width: 300px;
+    border: 2px solid black;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+#bag-health div {
+    height: 20px;
+    background: crimson;
+
+}
+
+#controls {
+    width: 120px;
+    margin: 0 auto;
+}

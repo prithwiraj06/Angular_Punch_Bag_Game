@@ -1,0 +1,16 @@
+<div id="">
+  <!-- bag image -->
+  <div id="bag" [class.brust]="ended">
+    
+  </div>
+  <!-- bag health -->
+  <div id="bag-health">
+    <div [style.width.%]="health">{{health > 0 ? health + '%' : ''}}</div>
+  </div>
+
+  <!-- bag controls -->
+  <div id="controls">
+      <button (click)="punch()" *ngIf="ended == false">Puch</button> &nbsp;
+      <button (click)="restartGame()">Restart</button>
+  </div>  
+</div>
